@@ -3,7 +3,7 @@ package CAT;
 public class App {
 
 	public static void main (String[] args) {
-		
+		//main
 		Women_cloth w1 = new Women_cloth(3200, "pepe", "Jeans");
 		w1.setId(21021);
 		System.out.println("ID: " +w1.getId() +"\nItem: " +w1.getItem_name() +"\nCatgeory: " +w1.getCategory() );
