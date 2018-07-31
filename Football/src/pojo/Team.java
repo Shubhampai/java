@@ -1,7 +1,7 @@
 package pojo;
 
 public abstract class Team {
-	//main
+	
 	private String name;
 	private Integer total;
 	private String gender;

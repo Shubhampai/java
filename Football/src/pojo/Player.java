@@ -1,13 +1,14 @@
 package pojo;
 
-public class Player extends Team {
+public class Player extends Team implements Pay{
 
 	private String name;
 	private Integer age;
 	private String play_position;
 	private String gender;
 	private Integer Tee_no;
-	Integer No; Integer Goals;
+	Integer No; Integer Goals,a,d=1000;
+	
 
 	
 	public void Kick() {
@@ -24,10 +25,11 @@ public class Player extends Team {
 		
 	}
 	
-	public Player(String name,Integer age, String gender ) {
+	public Player(String name,Integer age, String gender,Integer Goals ) {
 		this.name= name;// self refrencing
 		this.age= age;
 		this.gender=gender;
+		this.Goals = Goals;
 		
 	}
 	
@@ -87,6 +89,22 @@ public class Player extends Team {
 	public void Payment() {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public void Calculatesalary() {
+		
+		a= Goals * d;
+		System.out.println("Salary: " +a);
+		
+	}
+
+	public Integer getGoals() {
+		return Goals;
+	}
+
+	public void setGoals(Integer goals) {
+		Goals = goals;
 	}
 	
 	

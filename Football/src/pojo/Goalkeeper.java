@@ -4,11 +4,11 @@ public class Goalkeeper extends Player{
 
 		private Boolean Gloves;
 
-		public Goalkeeper(String name, Integer age,String gender) {
+		/*public Goalkeeper(String name, Integer age,String gender) {
 			super(name,age,gender);
 			
 			
-		}
+		}*/
 
 		public void Catch() {
 			
