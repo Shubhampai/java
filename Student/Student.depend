@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1533206407 source:c:\users\shubham\desktop\uml_1717\c++\student\main.cpp
+	<iostream>
+	"Stud.h"
+
+1533206443 c:\users\shubham\desktop\uml_1717\c++\student\include\stud.h
+	<string>
+
