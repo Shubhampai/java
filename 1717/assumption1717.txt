@@ -1,0 +1,11 @@
+Rollno: 1717
+
+Assuption:
+1. Assuming that mobile is the top class.
+
+2. Compliance, os Independent, os dependent as well as OS , opensource , community, propritry are interfaces.
+
+3. array list has been created for both smart phones and feature phones.
+
+4.some calculation of expiry and community statistics are been done so that we can implement the abstract and other java methods(not real stats though).
+
